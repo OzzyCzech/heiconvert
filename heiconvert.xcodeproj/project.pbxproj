@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3017383723A3857300704470 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017383623A3857300704470 /* main.swift */; };
+		3017383723A3857300704470 /* tifToHeic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017383623A3857300704470 /* tifToHeic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3017383323A3857300704470 /* heiconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heiconvert; sourceTree = BUILT_PRODUCTS_DIR; };
-		3017383623A3857300704470 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3017383623A3857300704470 /* tifToHeic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tifToHeic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		3017383523A3857300704470 /* heiconvert */ = {
 			isa = PBXGroup;
 			children = (
-				3017383623A3857300704470 /* main.swift */,
+				3017383623A3857300704470 /* tifToHeic.swift */,
 			);
 			path = heiconvert;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3017383723A3857300704470 /* main.swift in Sources */,
+				3017383723A3857300704470 /* tifToHeic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
