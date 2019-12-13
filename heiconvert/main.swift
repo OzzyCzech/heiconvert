@@ -3,17 +3,13 @@
 import Foundation
 import CoreImage
 
-let path = FileManager.default.currentDirectoryPath
-
+// search all *.tif files in Download directory and convert them to HEIF (heic)
 let documentsUrl =  FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first!
 
 do {
     // Get the directory contents urls (including subfolders urls)
     let directoryContents = try FileManager.default.contentsOfDirectory(at: documentsUrl, includingPropertiesForKeys: nil)
     let images = directoryContents.filter{ $0.pathExtension == "tif" }
-    
-    //let mp3FileNames = mp3Files.map{ $0.deletingPathExtension().lastPathComponent }
-
     
     for imageUrl in images {
         print("Converting file: ", imageUrl.deletingPathExtension().lastPathComponent)
