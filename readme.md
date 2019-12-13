@@ -1,4 +1,4 @@
-# HeifCONVERT
+# HeiConvert
 
 Simple swift script to convert `Downloads/*.tif` images to `*.heic` HEIF
 
