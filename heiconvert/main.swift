@@ -19,11 +19,11 @@ do {
     let options = NSDictionary(dictionary: [kCGImageDestinationLossyCompressionQuality:0.76])
     
     try! context.writeHEIFRepresentation(
-      of:image!,
+      of: image!,
       to: imageUrl.deletingPathExtension().appendingPathExtension("heic"),
       format: CIFormat.ARGB8,
       colorSpace: image!.colorSpace!,
-      options:options as! [CIImageRepresentationOption : Any])
+      options: options as! [CIImageRepresentationOption : Any])
 
     try FileManager.default.removeItem(at: imageUrl)
   }
