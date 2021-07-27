@@ -7,28 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3017383723A3857300704470 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017383623A3857300704470 /* main.swift */; };
+		3033AD6B26B00A6800B64013 /* InputImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033AD6A26B00A6800B64013 /* InputImageView.swift */; };
+		30C004D326AFFAB3003CBF7C /* heiconvertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C004D226AFFAB3003CBF7C /* heiconvertApp.swift */; };
+		30C004D526AFFAB3003CBF7C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C004D426AFFAB3003CBF7C /* InputView.swift */; };
+		30C004D726AFFAB4003CBF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C004D626AFFAB4003CBF7C /* Assets.xcassets */; };
+		30C004DA26AFFAB4003CBF7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C004D926AFFAB4003CBF7C /* Preview Assets.xcassets */; };
+		30C004E626AFFAB4003CBF7C /* heiconvertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C004E526AFFAB4003CBF7C /* heiconvertTests.swift */; };
+		30C004F126AFFAB4003CBF7C /* heiconvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C004F026AFFAB4003CBF7C /* heiconvertUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		3017383123A3857300704470 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		30C004E226AFFAB4003CBF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C004C726AFFAB3003CBF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C004CE26AFFAB3003CBF7C;
+			remoteInfo = heiconvert;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		30C004ED26AFFAB4003CBF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C004C726AFFAB3003CBF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C004CE26AFFAB3003CBF7C;
+			remoteInfo = heiconvert;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3017383323A3857300704470 /* heiconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heiconvert; sourceTree = BUILT_PRODUCTS_DIR; };
-		3017383623A3857300704470 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3033AD6A26B00A6800B64013 /* InputImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputImageView.swift; sourceTree = "<group>"; };
+		30C004CF26AFFAB3003CBF7C /* heiconvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heiconvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C004D226AFFAB3003CBF7C /* heiconvertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heiconvertApp.swift; sourceTree = "<group>"; };
+		30C004D426AFFAB3003CBF7C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		30C004D626AFFAB4003CBF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30C004D926AFFAB4003CBF7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30C004DB26AFFAB4003CBF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C004DC26AFFAB4003CBF7C /* heiconvert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = heiconvert.entitlements; sourceTree = "<group>"; };
+		30C004E126AFFAB4003CBF7C /* heiconvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heiconvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C004E526AFFAB4003CBF7C /* heiconvertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heiconvertTests.swift; sourceTree = "<group>"; };
+		30C004E726AFFAB4003CBF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C004EC26AFFAB4003CBF7C /* heiconvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heiconvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C004F026AFFAB4003CBF7C /* heiconvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heiconvertUITests.swift; sourceTree = "<group>"; };
+		30C004F226AFFAB4003CBF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3017383023A3857300704470 /* Frameworks */ = {
+		30C004CC26AFFAB3003CBF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004DE26AFFAB4003CBF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004E926AFFAB4003CBF7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +75,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3017382A23A3857300704470 = {
+		3033AD6D26B00B6E00B64013 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3017383523A3857300704470 /* heiconvert */,
-				3017383423A3857300704470 /* Products */,
+				30C004D426AFFAB3003CBF7C /* InputView.swift */,
+				3033AD6A26B00A6800B64013 /* InputImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30C004C626AFFAB3003CBF7C = {
+			isa = PBXGroup;
+			children = (
+				30C004D126AFFAB3003CBF7C /* heiconvert */,
+				30C004E426AFFAB4003CBF7C /* heiconvertTests */,
+				30C004EF26AFFAB4003CBF7C /* heiconvertUITests */,
+				30C004D026AFFAB3003CBF7C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3017383423A3857300704470 /* Products */ = {
+		30C004D026AFFAB3003CBF7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3017383323A3857300704470 /* heiconvert */,
+				30C004CF26AFFAB3003CBF7C /* heiconvert.app */,
+				30C004E126AFFAB4003CBF7C /* heiconvertTests.xctest */,
+				30C004EC26AFFAB4003CBF7C /* heiconvertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3017383523A3857300704470 /* heiconvert */ = {
+		30C004D126AFFAB3003CBF7C /* heiconvert */ = {
 			isa = PBXGroup;
 			children = (
-				3017383623A3857300704470 /* main.swift */,
+				3033AD6D26B00B6E00B64013 /* Views */,
+				30C004D626AFFAB4003CBF7C /* Assets.xcassets */,
+				30C004DC26AFFAB4003CBF7C /* heiconvert.entitlements */,
+				30C004D226AFFAB3003CBF7C /* heiconvertApp.swift */,
+				30C004DB26AFFAB4003CBF7C /* Info.plist */,
+				30C004D826AFFAB4003CBF7C /* Preview Content */,
 			);
 			path = heiconvert;
+			sourceTree = "<group>";
+		};
+		30C004D826AFFAB4003CBF7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30C004D926AFFAB4003CBF7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30C004E426AFFAB4003CBF7C /* heiconvertTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C004E526AFFAB4003CBF7C /* heiconvertTests.swift */,
+				30C004E726AFFAB4003CBF7C /* Info.plist */,
+			);
+			path = heiconvertTests;
+			sourceTree = "<group>";
+		};
+		30C004EF26AFFAB4003CBF7C /* heiconvertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30C004F026AFFAB4003CBF7C /* heiconvertUITests.swift */,
+				30C004F226AFFAB4003CBF7C /* Info.plist */,
+			);
+			path = heiconvertUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3017383223A3857300704470 /* heiconvert */ = {
+		30C004CE26AFFAB3003CBF7C /* heiconvert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3017383A23A3857300704470 /* Build configuration list for PBXNativeTarget "heiconvert" */;
+			buildConfigurationList = 30C004F526AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvert" */;
 			buildPhases = (
-				3017382F23A3857300704470 /* Sources */,
-				3017383023A3857300704470 /* Frameworks */,
-				3017383123A3857300704470 /* CopyFiles */,
+				30C004CB26AFFAB3003CBF7C /* Sources */,
+				30C004CC26AFFAB3003CBF7C /* Frameworks */,
+				30C004CD26AFFAB3003CBF7C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -79,25 +160,68 @@
 			);
 			name = heiconvert;
 			productName = heiconvert;
-			productReference = 3017383323A3857300704470 /* heiconvert */;
-			productType = "com.apple.product-type.tool";
+			productReference = 30C004CF26AFFAB3003CBF7C /* heiconvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C004E026AFFAB4003CBF7C /* heiconvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C004F826AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvertTests" */;
+			buildPhases = (
+				30C004DD26AFFAB4003CBF7C /* Sources */,
+				30C004DE26AFFAB4003CBF7C /* Frameworks */,
+				30C004DF26AFFAB4003CBF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C004E326AFFAB4003CBF7C /* PBXTargetDependency */,
+			);
+			name = heiconvertTests;
+			productName = heiconvertTests;
+			productReference = 30C004E126AFFAB4003CBF7C /* heiconvertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30C004EB26AFFAB4003CBF7C /* heiconvertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C004FB26AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvertUITests" */;
+			buildPhases = (
+				30C004E826AFFAB4003CBF7C /* Sources */,
+				30C004E926AFFAB4003CBF7C /* Frameworks */,
+				30C004EA26AFFAB4003CBF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C004EE26AFFAB4003CBF7C /* PBXTargetDependency */,
+			);
+			name = heiconvertUITests;
+			productName = heiconvertUITests;
+			productReference = 30C004EC26AFFAB4003CBF7C /* heiconvertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3017382B23A3857300704470 /* Project object */ = {
+		30C004C726AFFAB3003CBF7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Roman Ožana";
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					3017383223A3857300704470 = {
-						CreatedOnToolsVersion = 11.3;
+					30C004CE26AFFAB3003CBF7C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					30C004E026AFFAB4003CBF7C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30C004CE26AFFAB3003CBF7C;
+					};
+					30C004EB26AFFAB4003CBF7C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30C004CE26AFFAB3003CBF7C;
 					};
 				};
 			};
-			buildConfigurationList = 3017382E23A3857300704470 /* Build configuration list for PBXProject "heiconvert" */;
+			buildConfigurationList = 30C004CA26AFFAB3003CBF7C /* Build configuration list for PBXProject "heiconvert" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +229,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 3017382A23A3857300704470;
-			productRefGroup = 3017383423A3857300704470 /* Products */;
+			mainGroup = 30C004C626AFFAB3003CBF7C;
+			productRefGroup = 30C004D026AFFAB3003CBF7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3017383223A3857300704470 /* heiconvert */,
+				30C004CE26AFFAB3003CBF7C /* heiconvert */,
+				30C004E026AFFAB4003CBF7C /* heiconvertTests */,
+				30C004EB26AFFAB4003CBF7C /* heiconvertUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		30C004CD26AFFAB3003CBF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C004DA26AFFAB4003CBF7C /* Preview Assets.xcassets in Resources */,
+				30C004D726AFFAB4003CBF7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004DF26AFFAB4003CBF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004EA26AFFAB4003CBF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3017382F23A3857300704470 /* Sources */ = {
+		30C004CB26AFFAB3003CBF7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3017383723A3857300704470 /* main.swift in Sources */,
+				30C004D526AFFAB3003CBF7C /* InputView.swift in Sources */,
+				3033AD6B26B00A6800B64013 /* InputImageView.swift in Sources */,
+				30C004D326AFFAB3003CBF7C /* heiconvertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004DD26AFFAB4003CBF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C004E626AFFAB4003CBF7C /* heiconvertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C004E826AFFAB4003CBF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C004F126AFFAB4003CBF7C /* heiconvertUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		30C004E326AFFAB4003CBF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C004CE26AFFAB3003CBF7C /* heiconvert */;
+			targetProxy = 30C004E226AFFAB4003CBF7C /* PBXContainerItemProxy */;
+		};
+		30C004EE26AFFAB4003CBF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C004CE26AFFAB3003CBF7C /* heiconvert */;
+			targetProxy = 30C004ED26AFFAB4003CBF7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3017383823A3857300704470 /* Debug */ = {
+		30C004F326AFFAB4003CBF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -153,6 +336,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -177,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -187,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		3017383923A3857300704470 /* Release */ = {
+		30C004F426AFFAB4003CBF7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,6 +397,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -231,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -240,46 +425,170 @@
 			};
 			name = Release;
 		};
-		3017383B23A3857300704470 /* Debug */ = {
+		30C004F626AFFAB4003CBF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = heiconvert/heiconvert.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"heiconvert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = heiconvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		3017383C23A3857300704470 /* Release */ = {
+		30C004F726AFFAB4003CBF7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = heiconvert/heiconvert.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"heiconvert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = heiconvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30C004F926AFFAB4003CBF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = heiconvertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heiconvert.app/Contents/MacOS/heiconvert";
+			};
+			name = Debug;
+		};
+		30C004FA26AFFAB4003CBF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = heiconvertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heiconvert.app/Contents/MacOS/heiconvert";
+			};
+			name = Release;
+		};
+		30C004FC26AFFAB4003CBF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = heiconvertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = heiconvert;
+			};
+			name = Debug;
+		};
+		30C004FD26AFFAB4003CBF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = heiconvertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ozana.heiconvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = heiconvert;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3017382E23A3857300704470 /* Build configuration list for PBXProject "heiconvert" */ = {
+		30C004CA26AFFAB3003CBF7C /* Build configuration list for PBXProject "heiconvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3017383823A3857300704470 /* Debug */,
-				3017383923A3857300704470 /* Release */,
+				30C004F326AFFAB4003CBF7C /* Debug */,
+				30C004F426AFFAB4003CBF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3017383A23A3857300704470 /* Build configuration list for PBXNativeTarget "heiconvert" */ = {
+		30C004F526AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3017383B23A3857300704470 /* Debug */,
-				3017383C23A3857300704470 /* Release */,
+				30C004F626AFFAB4003CBF7C /* Debug */,
+				30C004F726AFFAB4003CBF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C004F826AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C004F926AFFAB4003CBF7C /* Debug */,
+				30C004FA26AFFAB4003CBF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C004FB26AFFAB4003CBF7C /* Build configuration list for PBXNativeTarget "heiconvertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C004FC26AFFAB4003CBF7C /* Debug */,
+				30C004FD26AFFAB4003CBF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3017382B23A3857300704470 /* Project object */;
+	rootObject = 30C004C726AFFAB3003CBF7C /* Project object */;
 }
